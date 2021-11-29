@@ -1,0 +1,25 @@
+{
+  "name": "zendesk-ticket-viewer",
+  "version": "0.1.0",
+  "description": "displays basic Zendesk ticket information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Zendesk",
+    "ticket",
+    "API"
+  ],
+  "author": "Emmanuel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/User-447/zendeskticketviewer/new/main"
+  },
+  "dependencies": {
+    "moment": "^2.19.2",
+    "zendesk-node-api": "^1.3.0"
+  }
+}
